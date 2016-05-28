@@ -195,8 +195,9 @@ OK
 >127.0.0.1:6379> GET key  
 >"vakkevalue"  
 >127.0.0.1:6379> INCR key  
->(error) ERR value is not an integer or out of range  >127.0.0.1:6379> SET key 100
->OK
+>(error) ERR value is not an integer or out of range
+>127.0.0.1:6379> SET key 100
+>OK  
 >127.0.0.1:6379> INCR key
 >(integer) 101
 
