@@ -21,7 +21,7 @@ cmake path # 表示在指定目录path执行 cmake
 
 ### if、条件表达式
 
-+ ####格式
++ 格式
 ```
 if(expression1)
 	COMMONAD1(ARGS ...)
