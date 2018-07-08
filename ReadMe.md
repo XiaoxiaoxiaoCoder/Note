@@ -10,9 +10,9 @@
 
 
 ### Redis
-> [string](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-string.md)
-> [list](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-list.md)
-> [Hash](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-hash.md)
+> [string](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-string.md)  
+> [list](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-list.md)  
+> [Hash](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-hash.md)  
 
 
 
