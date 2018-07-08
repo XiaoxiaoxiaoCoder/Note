@@ -9,7 +9,7 @@ cmake path # 表示在指定目录path执行 cmake
 ```
 
 ### 基本编写逻辑
-+ 设置 `cmake` 版本需求  `cmake_minimum_required`
++ 设置 `CMake` 版本需求  `cmake_minimum_required`
 + 设置工程名  `project`
 + 生成可执行文件 `add_executable`
 + 生成静态库 `add_library`
@@ -55,4 +55,48 @@ endif()
 |STRGREATER|E1 ~ E2，变量值或者字符串为有效的数字且满足小于（大于、等于）的条件|
 |STREQUAL|E1 ~ E2，变量值或者字符串为有效的数字且满足小于（大于、等于）的条件|
 
- 
+
+
+ ### 变量、字符串
+
+>`CMake`的基本数据类型是字符串(不区分大小写)，一组字符串在一起成为列表(list)。
+
++ 变量显示定义
+```
+set(VAR a) 		# 就是一个字符串
+set(VAR a b c)  # 就是一个字符串list
+```
++ [常用的部分内部变量](http://www.cnblogs.com/alexYuin/p/8874579.html)
+
++ 变量引用
+```
+使用${} 比如：${CMAKE_BINARY_DIR}
+```
+
+### include
+> 用来载入 `CMakeList.txt` 文件，也用于载入预定义的cmake模块
+
+```
+include(cmake/OpenCVMinDepVersions.cmake)
+```
+
+### 循环
++ foreach
+```
+set(VAR a b c)
+foreach(f ${VAR})
+	message(${f})
+endforeach()
+```
+
++ while
+```
+set(VAR 5)
+while(${VAR} GREATER 0)
+	message(${VAR})
+	math(EXPR VAR "${VAR} - 1")
+endwhile()
+```
+
+### 函数
+> 待后续补齐
