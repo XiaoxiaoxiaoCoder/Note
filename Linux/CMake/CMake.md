@@ -38,9 +38,21 @@ else()
 endif()
 ```
 
++ 关系操作符
 
-|xx|x1|
+|Name|Desc|
 |:--|:--|
-|22|33|
+|NOT|非，NOT E1|
+|AND|与，E1 AND E2|
+|OR|或, E1 OR E2|
+|EXIST|~E，存在name的文件或者目录(应该使用绝对路径)，真|
+|COMMAND|~E，存在 command-name 命令、宏或函数且能够被调用，真|
+|DEFINED|~E，变量被定义了,真|
+|EQUAL|E1 ~ E2，变量值或者字符串匹配 regex 正则表达式|
+|LESS|E1 ~ E2，变量值或者字符串匹配 regex 正则表达式|
+|GREATER|E1 ~ E2，变量值或者字符串匹配 regex 正则表达式|
+|STRLESS|E1 ~ E2，变量值或者字符串为有效的数字且满足小于（大于、等于）的条件|
+|STRGREATER|E1 ~ E2，变量值或者字符串为有效的数字且满足小于（大于、等于）的条件|
+|STREQUAL|E1 ~ E2，变量值或者字符串为有效的数字且满足小于（大于、等于）的条件|
 
  
