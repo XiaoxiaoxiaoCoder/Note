@@ -85,7 +85,7 @@ include(cmake/OpenCVMinDepVersions.cmake)
 ```
 set(VAR a b c)
 foreach(f ${VAR})
-	message(${f})
+    message(${f})
 endforeach()
 ```
 
@@ -93,8 +93,8 @@ endforeach()
 ```
 set(VAR 5)
 while(${VAR} GREATER 0)
-	message(${VAR})
-	math(EXPR VAR "${VAR} - 1")
+    message(${VAR})
+    math(EXPR VAR "${VAR} - 1")
 endwhile()
 ```
 
