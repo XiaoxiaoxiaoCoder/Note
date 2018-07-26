@@ -10,6 +10,8 @@
     
 > [CMake](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/CMake)
 
+>[Shell](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/Shell)
+
 
 ### Redis
 > [string](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-string.md)  
