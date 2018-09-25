@@ -8,7 +8,7 @@
 ### gopm 安装
 ```
 go get github.com/gpmgo/gopm
-go install ithub.com/gpmgo/gopm
+go install github.com/gpmgo/gopm
 ```
 
 ### 使用说明
