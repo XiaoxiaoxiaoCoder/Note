@@ -1,25 +1,16 @@
 # 学习笔记
 
-### C语言
-> [C语言宏相关](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/C_Define)
-
-### golang
->[Go工具
-](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Go/go_tools)
++ [C语言](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/C_Define)
 
 
-### Linux
-> [Linux命令](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/Linux%20%E5%91%BD%E4%BB%A4)
 
-> [CMake](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/CMake)
-
->[Shell](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/Shell)
++ [golang](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Go)
 
 
-### Redis
-> [string](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-string.md)  
+
++ [Linux](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/Linux%20%E5%91%BD%E4%BB%A4)
 
 
-> [list](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-list.md)
 
-> [Hash](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis/redis-hash.md)  
++ [Redis](https://github.com/XiaoxiaoxiaoCoder/Note/blob/master/Redis)
+ 
