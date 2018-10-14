@@ -1,6 +1,5 @@
 # Golang
 
----
 
 ### Tools
 
