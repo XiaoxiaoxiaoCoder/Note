@@ -8,7 +8,7 @@
 
 
 
-+ [Linux](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux/Linux%20%E5%91%BD%E4%BB%A4)
++ [Linux](https://github.com/XiaoxiaoxiaoCoder/Note/tree/master/Linux)
 
 
 
